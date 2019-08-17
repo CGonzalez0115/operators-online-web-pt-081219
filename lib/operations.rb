@@ -1,9 +1,10 @@
 def unsafe?(speed)
 speed = 40
 speed < 60 ? "safe" : "unsafe"
+binding.pry
 end
 
-binding.pry
+
 
 def not_safe?(speed)
 
