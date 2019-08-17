@@ -5,7 +5,7 @@ def unsafe?(speed)
 		speed = "unsafe"
 end
 
-binding.pry
+
 
 def not_safe?(speed)
 	speed = 40
